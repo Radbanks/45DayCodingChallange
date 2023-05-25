@@ -4,6 +4,7 @@
 # Challanges List
 - [Day of the Week](#day-1-day-of-the-week) 
 - [Find Kth Row](#day-2-find-kth-row)
+- [Power of Power](#day-3-power-of-power)
 
 # Day 1 Day of the Week
 <p> Write a function that calculates the corresponding day of the week for any particular date in the past or future.
@@ -24,4 +25,17 @@ Consider the following matrix :
 
 You can see that row 1 (0-based) contains all 0’s except mat[1][1] and column 1 contains all 1’s. Hence the answer for the above case is 1.
 - https://www.codingninjas.com/codestudio/problems/find-row-k_920510?topList=45-day-coding-challenge&leftPanelTab=0
+</p>
+
+# Day 3 Power of power
+<p> Problem statement
+  Problem Statement
+Suggest Edit
+Hisoka was so hungry for power that he left Phantom Troupe in search of power. He met two kids on his way, Gon and Killua. They gave him four numbers A, B, C, and M where M is a Prime Number and told him that if he can calculate A ^ (B ^ C) Mod M, he will gain a lot of powers. Hisoka is weak in coding. Can you help hisoka solve this problem of powers.
+For Example :
+A = 2, B = 2, C = 3, M = 5
+
+Computing B ^ C gives 2 ^ 3 = 8, Now A ^ (B ^ C) = 2 ^ 8 = 256.  256 Mod 5 is 1. Hence the final answer is 1.
+(Anime reference possibly Jojos)
+- https://www.codingninjas.com/codestudio/problems/power-of-power_975477?topList=45-day-coding-challenge
 </p>
