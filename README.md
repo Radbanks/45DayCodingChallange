@@ -38,4 +38,5 @@ A = 2, B = 2, C = 3, M = 5
 Computing B ^ C gives 2 ^ 3 = 8, Now A ^ (B ^ C) = 2 ^ 8 = 256.  256 Mod 5 is 1. Hence the final answer is 1.
 (Anime reference possibly Jojos)
 - https://www.codingninjas.com/codestudio/problems/power-of-power_975477?topList=45-day-coding-challenge
+- Youtube Reference Video: https://youtu.be/CnPreli2F-E
 </p>
