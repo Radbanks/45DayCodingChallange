@@ -1,25 +1,25 @@
 #include <bits/stdc++.h> 
+#define ll long long
 
-long long mod_exp(long long base, long long exp, long long mod) {
-    if (exp == 0) return 1;
-    if (exp&1==0) {  //exp is odd
-        long long temp = mod_exp(base, exp / 2, mod);
-        return (temp * temp) % mod;
-    } else {    //exp is even
-        return (base * mod_exp(base, exp - 1, mod)) % mod;
+ll fastPower(ll a, ll b, ll n)
+{
+    ll res = 1;
+    while (b > 0)
+    {
+        if ((b & 1) != 0)
+        {
+            res = (res * a % n) % n;
+        }
+        a = (a % n * a % n) % n;
+        b = b >> 1;
     }
+    return res;
 }
 
 int powerOfPower(int A, int B, int C, int M) 
 {
-    // Write your code her
-    
-    //Using Fermat's Little Theorem : a^(b^c)%m == a^(b^c % (m-1)) % m
-    //First we calculate B_pow_C=(b^c % (m-1))
-    //Then we calculate result=(a^B_pow_C) % m
-    
-    long long B_pow_C = mod_exp(B, C, M - 1); 
-    long long result = mod_exp(A, B_pow_C, M);
-
-    return result;
+    // Write your code here.
+   int res=fastPower(B,C,M-1);
+   res=fastPower(A,res,M);
+   return res;
 }
