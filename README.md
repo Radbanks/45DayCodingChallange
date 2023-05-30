@@ -7,6 +7,8 @@
 - [Power of Power](#day-3-power-of-power)
 - [Closest Distance Pair](#day-4-closest-distance-pair)
 - [Search Insert Position](#day-5-search-insert-position)
+- [Majority element](#day-6--majority-element)
+- [Langford Pairing](#day-7-langford-pairing)
 <!-- end of the list -->
 
 # Day 1 Day of the Week
@@ -63,8 +65,7 @@ Where distance between two points (x1, y1) and (x2, y2) is calculated as [(x1 - 
 # Day 5 Search Insert Position
 
 <p>
-  Problem Statement
-Suggest Edit
+Problem Statement:
 You are given a sorted array 'arr' of distinct values and a target value 'm'. You need to search for the index of the target value in the array.
 If the value is present in the array, then return its index.
 If the value is not present, determine the index where it would be inserted in the array while maintaining the sorted order.
@@ -74,6 +75,31 @@ Example:
 Explanation: If the given array 'arr' is: [1, 2, 4, 7] and m = 6. We insert m = 6 in the array and get 'arr' as: [1, 2, 4, 6, 7]. The position of 6 is 3 (according to 0-based indexing)
 
 - https://www.codingninjas.com/codestudio/problems/algorithm-to-find-best-insert-position-in-sorted-array_839813?topList=45-day-coding-challenge
+
 </p>
 
+# Day 6  Majority element
+<p> 
+ Problem statement:
+  <!-- end of the list -->
+You have been given an array/list 'ARR' consisting of 'N' integers. Your task is to find the majority element in the array. If there is no majority element present, print -1.
+Note:
+A majority element is an element that occurs more than floor('N' / 2) times in the array.
 
+- https://www.codingninjas.com/codestudio/problems/majority-element_842495?topList=45-day-coding-challenge&leftPanelTab=0
+  <!-- end of the list -->
+</p>
+
+# Day 7 Langford Pairing
+<p>
+Problem Statement:
+You are given a positive integer N. Return a list of integers of size 2N containing all the integers from 1 to N (both inclusive) twice arranged according to Langford pairing. If no such pairing exists return -1 is the only list element.
+- Note:
+There may be more than one Langford pair possible, you need to return anyone permutation.
+For Example:
+For N = 4, one possible Langford pairing will be:-
+  
+![image](https://files.codingninjas.in/360px-langford_pairing-svg-5670.png)
+  
+- https://www.codingninjas.com/codestudio/problems/langford-pairing_845178?topList=45-day-coding-challenge&leftPanelTab=0
+</p>
