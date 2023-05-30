@@ -1,7 +1,7 @@
 # 45DayCodingChallange
 45 Day Coding Challenge by Coding Ninjas
 
-# Challanges List
+# Challenge List
 - [Day of the Week](#day-1-day-of-the-week) 
 - [Find Kth Row](#day-2-find-kth-row)
 - [Power of Power](#day-3-power-of-power)
