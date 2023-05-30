@@ -1,4 +1,4 @@
-# 45DayCodingChallange
+# 45DayCodingChallenge
 45 Day Coding Challenge by Coding Ninjas
 
 # Challenge List
